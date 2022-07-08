@@ -7,48 +7,28 @@ Notepad is a **Progressive Web Application (PWA)** text editor that runs in the 
 The application will be launched with Heroku using the [Heroku Deployment Guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/heroku/heroku-deployment-guide).
 
 ## Installation
-To install all of the Webpacks for the application you can either copy the package.json files in both the Server & Client side and run `npm install` or each item can be installed individually if you are starting from scratch:
+To install all of the Webpacks for the application you can either copy the package.json files in both the Server & Client side and run `npm install` or each item can be installed individually if you are starting from scratch. `npm run build` creates the `dist` folder.
 
 * [Webpack Dev Server](https://www.npmjs.com/package/webpack-dev-server)
-
 * [Webpack Mode Production](https://webpack.js.org/configuration/mode/)
-
 * [Webpack Watch](https://www.npmjs.com/package/webpack-watch-files-plugin)
-
 * [Babel Core](https://www.npmjs.com/package/@babel/core)
-
 * [Babel Runtime](https://babeljs.io/docs/en/babel-plugin-transform-runtime)
-
 * [Babel Preset](https://babeljs.io/docs/en/babel-preset-env)
-
 * [Babel Loader](https://www.npmjs.com/package/babel-loader)
-
 * [CSS Loader](https://www.npmjs.com/package/css-loader)
-
 * [HTML webpack plugin](https://www.npmjs.com/package/html-webpack-plugin)
-
 * [Http Server](https://www.npmjs.com/package/http-server)
-
 * [Style Loader](https://webpack.js.org/loaders/style-loader/)
-
 * [Webpack](https://www.npmjs.com/package/webpack)
-
 * [Webpack CLI](https://www.npmjs.com/package/webpack-cli)
-
 * [Webpack Dev Server](https://webpack.js.org/configuration/dev-server/)
-
 * [Webpack Manifest](https://www.npmjs.com/package/webpack-manifest-plugin)
-
 * [Workbox Webpack plugin](https://www.npmjs.com/package/workbox-webpack-plugin)
-
 * [CSS Mini](https://webpack.js.org/plugins/mini-css-extract-plugin/#getting-started)
-
 * [Code Mirror](https://www.npmjs.com/package/codemirror)
-
 * [idb](https://www.npmjs.com/package/idb)
-
 * [Express](https://www.npmjs.com/package/express)
-
 * [Nodemon](https://www.npmjs.com/package/nodemon)
 
 ## Usage
