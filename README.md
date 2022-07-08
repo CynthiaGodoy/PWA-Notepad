@@ -6,6 +6,10 @@ Notepad is a **Progressive Web Application (PWA)** text editor that runs in the 
 
 The application will be launched with Heroku using the [Heroku Deployment Guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/heroku/heroku-deployment-guide).
 
+## Live URL
+
+[Notepad Application Deployed to Heroku](https://hidden-tor-30997.herokuapp.com/)
+
 ## Installation
 To install all of the Webpacks for the application you can either copy the package.json files in both the Server & Client side and run `npm install` or each item can be installed individually if you are starting from scratch. `npm run build` creates the `dist` folder.
 
