@@ -1,4 +1,4 @@
-// Import methods to save and get data from the indexedDB database in './database.js'
+//IMPORT METHODS TO SAVE AND GET DATA FROM THE INDEXEDDB DATABASE IN './database.js'
 import { getDb, putDb } from './database';
 import { header } from './header';
 
@@ -6,7 +6,7 @@ export default class {
   constructor() {
     const localData = localStorage.getItem('content');
 
-    // check if CodeMirror is loaded
+    //CHECK IF CODEMIRROR IS LOADED
     if (typeof CodeMirror === 'undefined') {
       throw new Error('CodeMirror is not loaded');
     }
@@ -33,7 +33,7 @@ export default class {
       localStorage.setItem('content', this.editor.getValue());
     });
 
-    // Save the content of the editor when the editor itself is loses focus
+    //SAVE THE CONTENT OF THE EDITOR WHEN THE EDITOR ITSELF IS LOSES FOCUS
     this.editor.on('blur', () => {
       console.log('The editor has lost focus');
       putDb(localStorage.getItem('content'));
